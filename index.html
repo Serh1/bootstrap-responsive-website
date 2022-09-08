@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==================== BOOTSTRAP ====================-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/mobile.css">
+
+    <title>Bootstrap Responsive Website</title>
+</head>
+<body>
+<!--==================== HEADER ====================-->
+<header>
+    <div class="container-fluid text-justify p-0">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand text-light" href="#">Books</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <!--                    <li class="nav-item">-->
+                    <!--                        <a class="nav-link" href="#">Course</a>-->
+                    <!--                    </li>-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">About</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="nav-link" href="#">Pages</a>
+                        <div class="dropdown-content">
+                            <a href="#">Generic</a>
+                            <a href="#">Element</a>
+                        </div>
+
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#download">App</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reviews">Reviews</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container text-center">
+        <div class="color-changer">
+            <small>Change Color:</small><br>
+            <button type="button" class="color-btn color-btn-1" id="color-btn-1"></button>
+            <button type="button" class="color-btn color-btn-2" id="color-btn-2"></button>
+            <button type="button" class="color-btn color-btn-3" id="color-btn-3"></button>
+        </div>
+
+
+        <div class="row ">
+            <div class="col-md-7 col-sm-12 center-block">
+                <h6> AUTHOR: DAILY TUTION</h6>
+                <h1>SELLING BOOK</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias amet, architecto aut
+                    blanditiis
+                    consectetur deserunt doloribus eius itaque non officiis pariatur perferendis, ratione reiciendis
+                    repudiandae rerum sint sunt voluptatibus?
+                </p>
+                <button class="btn btn-light">Buy for $11.99</button>
+            </div>
+            <div class="col-md-5 col-sm-12 h-25">
+                <img src="assets/img/header-img.png" alt="Books">
+
+            </div>
+        </div>
+    </div>
+</header>
+<!--==================== MAIN ====================-->
+<main class="main">
+    <!--==================== HOME ====================-->
+    <section class="section-1">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="pray">
+                        <img src="assets/img/pexels-photo-1904769.jpeg" alt="Pray" class="">
+                    </div>
+                </div>
+
+
+                <div class="col-md-6">
+                    <div class="panel text-left">
+                        <h1> Mr Mateiu Sergiu</h1>
+                        <p class="pt-4">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci aliquam animi aperiam
+                            deserunt dolore ea error facere fuga inventore itaque possimus quibusdam quis rem sapiente,
+                            similique soluta velit voluptas.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet at commodi debitis
+                            dolorem earum ex harum laudantium, mollitia nisi nostrum nulla odit perspiciatis
+                            reprehenderit rerum tenetur totam ullam voluptate!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== PRICING ====================-->
+    <section class="section-2 container-fluid p-0" id="pricing">
+        <div class="cover">
+            <div class="content text-center">
+                <h1>The book numbers</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem iure odit voluptates!
+                </p>
+            </div>
+        </div>
+        <div class="container-fluid text-center">
+            <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
+                <div class="rect">
+                    <h1>400</h1>
+                    <p>Pieces sold.</p>
+                </div>
+                <div class="rect">
+                    <h1>300</h1>
+                    <p>Positive Reviews.</p>
+                </div>
+                <div class="rect">
+                    <h1>30</h1>
+                    <p>Chapters.</p>
+                </div>
+                <div class="rect">
+                    <h1>100</h1>
+                    <p>Different counties.</p>
+                </div>
+            </div>
+        </div>
+        <div class="purchase text-center">
+            <h1>Purchase in favorite format.</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, dolore.</p>
+            <!--CARDS-->
+            <div class="cards">
+                <div class="d-flex flex-row justify-content-center flex-wrap">
+                    <!--CARD #1-->
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="title">
+                                <h5 class="card-title">
+                                    PDF
+                                </h5>
+                            </div>
+                            <p class="card-text">
+                                Get access to digital version of this.
+                            </p>
+                            <div class="pricing">
+                                <h1>$14.99</h1>
+                                <a href="#" class="btn bg-primary text-light px-5 py-2 mb-5">Choose</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--CARD #2-->
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="title">
+                                <h5 class="card-title">
+                                    Classic
+                                </h5>
+                            </div>
+                            <p class="card-text">
+                                Order the classic book and get it within 3 days.
+                            </p>
+                            <div class="pricing">
+                                <h1>$11.99</h1>
+                                <a href="#" class="btn bg-primary text-light px-5 py-2 mb-5">Choose</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--CARD #3-->
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="title">
+                                <h5 class="card-title">
+                                    AudioBook
+                                </h5>
+                            </div>
+                            <p class="card-text">
+                                Listen my book through our app.
+                            </p>
+                            <div class="pricing">
+                                <h1>$12.99</h1>
+                                <a href="#" class="btn bg-primary text-light px-5 py-2 mb-5">Choose</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== DOWNLOAD APP ====================-->
+    <section class="section-3 container-fluid p-0 text-center" id="download">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h1>Download my app</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus est illo sint velit! Atque ducimus
+                    quam temporibus tenetur, velit veritatis! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Aliquam aspernatur, beatae blanditiis dicta dolorem dolores esse, facere fugit illum mollitia
+                    nostrum odio provident quaerat similique voluptate! Accusantium animi, ea? Dolore?</p>
+            </div>
+        </div>
+        <div class="platform row">
+            <div class="col-md-6 col-sm-12 text-right">
+                <div class="desktop shadow-lg">
+                    <div class="d-flex flex-row justify-content-center">
+                        <i class="uil uil-desktop py-2 pr-3 "></i>
+                        <div class="text text-left">
+                            <h3 class="pt-1 m-0">Desktop
+                            </h3>
+                            <p class="p-0 m-0">On Website</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 text-left">
+                <div class="desktop shadow-lg">
+                    <div class="d-flex flex-row justify-content-center">
+                        <i class="uil uil-apple fa-3x py-2 pr-3"></i>
+                        <div class="text text-left">
+                            <h3 class="pt-1 m-0">iOS
+                            </h3>
+                            <p class="p-0 m-0">On Phone</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== REVIEWS ====================-->
+    <section class="section-4 container-fluid" id="reviews">
+        <div class="container">
+            <h1 class="text-dark">Happy clients.</h1>
+            <p class="text-secondary">Lorem ipsum dolor sit.</p>
+        </div>
+        <div class="team row">
+            <!--REVIEW #1-->
+            <div class="col-md-4 col-12 text-center">
+                <div class="card mr-2 d-inline-block shadow-lg">
+                    <div class="card-img-top">
+                        <img src="assets/img/UI-face-1.jpg" alt="Member" class="img-fluid border-radius p-4">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">First Last</h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam beatae cupiditate
+                            exercitationem labore nemo nulla obcaecati placeat quisquam quo, repellendus rerum, sapiente
+                            velit vitae! Dolores eos incidunt mollitia sapiente voluptatibus?
+                        </p>
+                        <a href="#" class="text-secondary text-decoration-none"> Go to page</a>
+                        <p class="text-black-50">CEO at Company.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--REVIEW #2-->
+            <div class="col-md-4 col-12 text-center ">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner text-center bg-info ">
+                        <div class="carousel-item active">
+                            <div class="card mr-2 d-inline-block shadow">
+                                <div class="card-img-top">
+                                    <img src="../assets/img/UI-face-1.jpg" class="img-fluid rounded-circle w-50 p-4"
+                                         alt="">
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Allen Agnes</h3>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem
+                                        recusandae, veniam, illo dolor soluta assumenda
+                                        minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis
+                                        quasi voluptas!
+                                    </p>
+                                    <a href="#" class="text-secondary text-decoration-none">Go somewhere</a>
+                                    <p class="text-black-50">CEO at FB</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card  d-inline-block mr-2 shadow">
+                                <div class="card-img-top">
+                                    <img src="../assets/img/UI-face-2.jpg" class="img-fluid rounded-circle w-50 p-4"
+                                         alt="">
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Amiel Barbara</h3>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem
+                                        recusandae, veniam, illo dolor soluta assumenda
+                                        minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis
+                                        quasi voluptas!
+                                    </p>
+                                    <a href="#" class="text-secondary text-decoration-none">Go somewhere</a>
+                                    <p class="text-black-50">CEO at Google</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card  d-inline-block mr-2 shadow">
+                                <div class="card-img-top">
+                                    <img src="../assets/img/UI-face-3.jpg" class="img-fluid rounded-circle w-50 p-4"
+                                         alt="">
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">Amiel Barbara</h3>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem
+                                        recusandae, veniam, illo dolor soluta assumenda
+                                        minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis
+                                        quasi voluptas!
+                                    </p>
+                                    <a href="#" class="text-secondary text-decoration-none">Go somewhere</a>
+                                    <p class="text-black-50">CEO at Google</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--REVIEW #3-->
+            <div class="col-md-4 col-12 text-center">
+                <div class="card mr-2 d-inline-block shadow-lg">
+                    <div class="card-img-top">
+                        <img src="assets/img/UI-face-5.jpg" alt="Member" class="img-fluid border-radius p-4">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">First Last</h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam beatae cupiditate
+                            exercitationem labore nemo nulla obcaecati placeat quisquam quo, repellendus rerum, sapiente
+                            velit vitae! Dolores eos incidunt mollitia sapiente voluptatibus?
+                        </p>
+                        <a href="#" class="text-secondary text-decoration-none"> Go to page</a>
+                        <p class="text-black-50">CEO at Company.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</main>
+
+<!--==================== FOOTER ====================-->
+<footer class="footer">
+    <div class="container-fluid p-0">
+        <div class="row text-left">
+            <div class="col-md-5 col-md-5 ">
+                <h1 class="text-light">
+                    About US
+                </h1>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem sed sunt
+                    tempore.</p>
+                <p class="pt-4 text-muted">
+                    copyright Lorem ipsum dolor sit amet, consectetur adipisicing <span>Sergiu</span>.
+                </p>
+            </div>
+            <div class="col-md-5 ">
+                <h1 class="text-light">
+                    Newsletter
+                </h1>
+                <p class="text-muted">Stay updatd</p>
+                <form class="form-inline">
+                    <div class="col pl-0">
+                        <div class="input-group pr-5">
+                            <input type="text" class="form-control.bg-dark" placeholder="Email">
+                        </div>
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <i class="icon">>
+                                </i>
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+
+
+            </div>
+            <div class="col-md-2 col-sm-12">
+                <h1 class="text-light">
+                    Follow Us
+                </h1>
+                <p class="text-muted">social letss be</p>
+                <div class="column text-light">
+                    fb
+                </div>
+                <div class="column text-light">
+                    ig
+                </div>
+                <div class="column text-light">
+                    tw
+                </div>
+                <div class="column text-light">
+                    yt
+                </div>
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!--==================== BOOTSTRAP JS ====================-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+<!--==================== MAIN JS ====================-->
+<script src="assets/js/main.js"></script>
+</body>
+</html>
