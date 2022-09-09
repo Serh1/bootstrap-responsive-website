@@ -75,7 +75,14 @@ header a {
 }
 
 header {
-    background-image: linear-gradient(180deg, var(--first-color-alt), var(--first-color), white);
+    background: hsla(210, 90%, 80%, 1);
+
+    background: linear-gradient(90deg, hsla(210, 90%, 80%, 1) 0%, var(--first-color) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(210, 90%, 80%, 1) 0%, var(--first-color) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(210, 90%, 80%, 1) 0%, var(--first-color) 100%);
+
 }
 
 
@@ -104,6 +111,8 @@ header {
     display: block;
 }
 
+
+
 header .nav-item:last-child {
     padding-right: 10.5em;
 }
@@ -116,9 +125,6 @@ header .navbar-brand {
     padding-left: 8rem;
 }
 
-header .nav-link {
-    color: white;
-}
 
 /*TODO: Fix color white*/
 header .nav-link span {
@@ -149,7 +155,7 @@ header .color-btn-2 {
 }
 
 header .color-btn-3 {
-    background-color: hsl(170, 69%, 61%);
+    background-color: hsl(91, 69%, 61%);
 }
 
 header .row .col-md-5 {
@@ -356,6 +362,7 @@ header .container .col-md-7 button {
     font-size: 2vmin;
 }
 
+
 /*==================== SECTION #4 ====================*/
 .section-4 .container h1 {
     font-size: 6vmin;
@@ -363,7 +370,7 @@ header .container .col-md-7 button {
 }
 
 .section-4 .team {
-    padding: 10vmin 4vmin;
+    padding: 5vmin 4vmin;
 }
 
 .section-4 .card {

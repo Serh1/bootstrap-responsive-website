@@ -44,10 +44,15 @@
 }
 
 /* Small size */
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 400px) {
     .section-4 .card {
         width: 18em;
     }
+    .section-4 .carousel-inner {
+        margin-left: -12vmin;
+        width: 20em;
+    }
+
 }
 
 @media only screen and (max-width: 320px) {
@@ -56,3 +61,7 @@
 
     }
 }
+
+
+
+

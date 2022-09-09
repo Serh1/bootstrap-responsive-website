@@ -60,6 +60,6 @@ colorChanger2.addEventListener("click", () => {
     console.log("color 1");
 });
 colorChanger3.addEventListener("click", () => {
-    root.style.setProperty('--hue-color', 170);
+    root.style.setProperty('--hue-color', 91);
     console.log("color 1");
 });
