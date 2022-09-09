@@ -187,7 +187,7 @@ header .container .col-md-7 button {
     font-weight: bold;
 }
 
-.bg-primary{
+.bg-primary-color{
     background-color: var(--first-color);
 }
 
@@ -369,6 +369,8 @@ header .container .col-md-7 button {
 .section-4 .card {
     width: 22rem;
     margin-top: 10vmin;
+    height: 600px;
+    justify-content: center;
 }
 
 .section-4 .card .card-text {
@@ -392,7 +394,7 @@ header .container .col-md-7 button {
 
 .border-radius {
     border-radius: 200px;
-    width: 80%;
+    width: 50%;
 }
 
 /*==================== FOOTER ====================*/
@@ -403,7 +405,11 @@ header .container .col-md-7 button {
 }
 
 footer p > span {
-    color: tomato;
+    color: var(--first-color-lighter);
+}
+
+footer > p{
+    color: var(--first-color-lighter);
 }
 
 footer input {
@@ -420,7 +426,7 @@ footer .input-group .input-group-text {
 }
 
 footer .column i {
-    color: #e66465;
+    color: var(--first-color-lighter);
 }
 
 footer .column i + i {
