@@ -7,4 +7,5 @@
 - Compatible with all mobile devices and with a beautiful and pleasant user interface.
 - Well structured
 
-![Preview comming soon]()
+![Preview](assets/img/preview-1.jpg)
+![Preview](assets/img/preview-2.jpg)
